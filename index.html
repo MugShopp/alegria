@@ -95,7 +95,7 @@
 </head>
 <body>
   <div class="creditos">Feito por MugShopp - Presentes Personalizados</div>
-  <img class="colecao" src="https://i.postimg.cc/HsTSCXXT/file-000000001ad4622f83bb44b37e4af829-1.png" alt="Imagem Coleção 375 Dias" />
+  <img class="colecao" src="https://i.postimg.cc/g2yYYfrQ/file-00000000a238622f9da16a6f1c522089-1.png" alt="Imagem Coleção 375 Dias" />
   <div class="frase" id="frase">Carregando frase...</div>
   <img class="logo" src="https://i.postimg.cc/7LWQCZjQ/Logo-Alta-Resolu-o-1.png" alt="Logo MugShopp" />
 
@@ -107,7 +107,7 @@
         const texto = await response.text();
         const frases = texto.split('\n').filter(l => l.trim() !== '');
         const hoje = new Date();
-        const inicio = new Date(hoje.getFullYear(), 0, 1); // 1º de janeiro
+        const inicio = new Date(hoje.getFullYear(), 0, 1);
         const diff = hoje - inicio;
         const umDia = 1000 * 60 * 60 * 24;
         const diaDoAno = Math.floor(diff / umDia);
